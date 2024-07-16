@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\waelh\\OneDrive\\Desktop\\Wael-July-C-Sharp-dotent-Repo\\ClassDemo\\ClassDemo.csproj",
+      "projectUniqueName": "C:\\Users\\waelh\\OneDrive\\Desktop\\Wael-July-C-Sharp-dotent-Repo\\Week2\\ClassDemo\\ClassDemo.csproj",
       "projectName": "ClassDemo",
-      "projectPath": "C:\\Users\\waelh\\OneDrive\\Desktop\\Wael-July-C-Sharp-dotent-Repo\\ClassDemo\\ClassDemo.csproj",
+      "projectPath": "C:\\Users\\waelh\\OneDrive\\Desktop\\Wael-July-C-Sharp-dotent-Repo\\Week2\\ClassDemo\\ClassDemo.csproj",
       "packagesPath": "C:\\Users\\waelh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\waelh\\OneDrive\\Desktop\\Wael-July-C-Sharp-dotent-Repo\\ClassDemo\\obj\\",
+      "outputPath": "C:\\Users\\waelh\\OneDrive\\Desktop\\Wael-July-C-Sharp-dotent-Repo\\Week2\\ClassDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\waelh\\AppData\\Roaming\\NuGet\\NuGet.Config"

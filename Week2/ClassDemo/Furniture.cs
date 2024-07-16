@@ -1,4 +1,4 @@
-class Furniture
+abstract class Furniture
 {
     //! Fields  Describe our Object
     private string material;
@@ -6,6 +6,7 @@ class Furniture
     public string color;
     public double price;
     public bool outdoor;
+
 
 
 
@@ -38,6 +39,9 @@ class Furniture
         Console.WriteLine($"Changed our Furniture from {color} to {newColor}");
         color = newColor;
     }
+
+
+
 
 
 }
