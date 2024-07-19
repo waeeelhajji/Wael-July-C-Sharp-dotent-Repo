@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web App</title>
+    @* Linking the CSS *@
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <h1>Hello @ViewBag.name from our First Web Page</h1>
+    @{
+        for (int i = 0; i < ViewBag.number; i++)
+        {
+            <p>@i</p>
+        }
+    }
+
+    <form action="process" method="post">
+        <label for="FavoriteAnimal"> Tell me your favorute animal</label>
+        <input type="text" name="FavoriteAnimal">
+        @{
+            if (ViewBag.Error == null)
+            {
+                <p></p>
+            }
+            else
+            {
+                @* ViewBag.Error *@
+                <p>Dogs are great but you need to pick another animal</p>
+                @* Importing Images *@
+                <img class="img" src="~/images/puppy.jpg" alt="puppy">
+            }
+        }
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+</body>
+
+</html>
